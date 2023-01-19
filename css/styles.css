@@ -10,3 +10,15 @@
 img.profile {
 	border-radius: 50%;
 }
+
+@media (max-width:800px){
+	img {
+		filter: contrast(180%);
+	}
+}
+
+@media (min-width:500px){
+	img {
+		transform: scaleX(-1);
+	}
+}
