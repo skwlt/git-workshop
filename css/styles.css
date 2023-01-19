@@ -13,7 +13,7 @@ img.profile {
 
 @media (max-width:800px){
 	img {
-		filter: contrast(180%);
+		filter: contrast(180%) hue-rotate(180deg);;
 	}
 }
 
